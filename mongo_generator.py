@@ -23,8 +23,8 @@ def insert_document(collection: Collection, document: Dict) -> str:
 if __name__ == "__main__":
     mongodb_host = "localhost"
     mongodb_port = 27017
-    database_name = "tax_calculator"
-    collection_name = "persons"
+    database_name = "hangman"
+    collection_name = "random_words"
 
     db = connect_to_mongodb(mongodb_host, mongodb_port, database_name)
 
